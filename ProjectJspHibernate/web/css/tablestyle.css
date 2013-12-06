@@ -1,0 +1,43 @@
+/* 
+    Document   : tablestyle
+    Created on : 14 Nov 13, 12:14:27
+    Author     : Wim Sonevel
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+table, th, td{
+	border-collapse:collapse;
+	border:1px solid #E5E5E5;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:13px;
+        text-align: center;
+	color: #5D5D5D;
+}
+/* style untuk head*/
+.head{
+	background:#2580a2;
+}
+
+.head th{
+	padding:5px;
+	color:#FFFFFF;
+	font-size:12px;
+}
+
+.head:hover, .head th:hover{
+	background:#00CCFF;
+	background: rgba(0,0,0,0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0,0.1) 0px 0px 10px;
+	-webkit-box-shadow: rgba(0,0,0,0.1) 0px 0px 10px;
+	cursor:auto;
+}
+
+.satu{
+	background-color:#CCCCCC;
+}
+
+.satu:hover{
+	background-color:#BADFFE;
+}
+

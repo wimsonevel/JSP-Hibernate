@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 14 Nov 13 12:03:02 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="pojos.Dosen" table="dosen" catalog="siakad_db">
+        <id name="nip" type="int">
+            <column name="nip" />
+            <generator class="assigned" />
+        </id>
+        <property name="dosNama" type="string">
+            <column name="dos_nama" length="50" />
+        </property>
+        <property name="dosAlamat" type="string">
+            <column name="dos_alamat" length="50" />
+        </property>
+        <property name="dosTelp" type="string">
+            <column name="dos_telp" length="20" />
+        </property>
+    </class>
+</hibernate-mapping>

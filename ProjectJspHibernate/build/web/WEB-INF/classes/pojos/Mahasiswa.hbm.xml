@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 14 Nov 13 12:03:02 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="pojos.Mahasiswa" table="mahasiswa" catalog="siakad_db">
+        <id name="nim" type="int">
+            <column name="nim" />
+            <generator class="assigned" />
+        </id>
+        <property name="mhsNama" type="string">
+            <column name="mhs_nama" length="50" />
+        </property>
+        <property name="mhsAlamat" type="string">
+            <column name="mhs_alamat" length="50" />
+        </property>
+        <property name="mhsJenisKelamin" type="string">
+            <column name="mhs_jenis_kelamin" length="1" />
+        </property>
+        <property name="mhsJurusan" type="string">
+            <column name="mhs_jurusan" length="20" />
+        </property>
+        <property name="mhsTelp" type="string">
+            <column name="mhs_telp" length="20" />
+        </property>
+    </class>
+</hibernate-mapping>
